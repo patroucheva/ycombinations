@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 150px; /* Increased padding value for greater margins */
+    box-sizing: border-box;
+  }
+  
+  #navbar {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  #hero {
+    text-align: left;
+    padding: 50px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  
+  #sidebar {
+    flex: 0 0 27.27%;
+    border: 1px solid black;
+    min-height: 100px;
+    padding: 10px;
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #sort-by {
+    text-align: right;
+  }
+  
+  #search-bar {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  #search-bar input {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  #showing-text {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  #companies {
+    border: 1px solid black;
+    min-height: 100px;
+    margin-top: 20px;
+  }
+  
